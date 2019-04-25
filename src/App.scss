@@ -1,0 +1,76 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 460px;
+  }
+  .dd-list-item {
+    &.selected, &:hover {
+      color: #fff;
+      background-color: #ffcc01;
+    }
+  }
+  .dd-wrapper-single {
+    user-select: none;
+    position: relative;
+    width: 265px;
+    .dd-header {
+      border: 1px solid #ccc;
+      .dd-header-name {
+        font-weight: 400;
+      }
+    }
+    .dd-list {
+      border: 1px solid #ccc;
+      border-top: none;
+    }
+  }
+  .dd-wrapper {
+    .dd-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 173px;
+      height: 77px;
+      border: 1px solid #767676;
+      cursor: default;
+      position: relative;
+      background-color: #ffffff;
+    }
+    .dd-list {
+      z-index: 10;
+      position: absolute;
+      width: 560px;
+      height: 636px;
+      border: 1px solid #767676;
+      background-color: #fff;
+      padding: 15px 0;
+      overflow-y: scroll;
+      -webkit-overflow-scrolling: touch;
+    }
+    .dd-list-item {
+      width: 100%;
+      font-size: 1.5rem;
+      padding: 8px 10px;
+      line-height: 1.6rem;
+      cursor: default;
+      display: flex;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+  
+  .country-flag-ad {
+    img{
+        width: 34px;
+        height: 20px;
+        background-repeat: no-repeat;
+        background-size: 34px 20px;
+    }
+  }
+  
+  .dd-wrapper .dd-list-item {
+    &.selected, &:hover {
+      color: #fff;
+      background-color: #ffcc01;
+    }
+  }
