@@ -1,12 +1,12 @@
-### Jira Ticket
+#### JIRA TICKET
 
-### Related PR
+#### RELATED PR
 
-### Description
+#### DESCRIPTION
 
 
 
-### Checklist
+#### Checklist
 - [ ] Unit test coverage
 - [ ] Sanity check after code change
 - [ ] Google Chrome
@@ -14,7 +14,7 @@
 - [ ] Safari
 
 
-### Screenshots
+#### Screenshots
 | Before | After |
 |--------|-------|
 | <img>  | <img> |
